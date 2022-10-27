@@ -1,0 +1,61 @@
+.education-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+
+.education-list-container{
+    background-color: #311a1a;
+}
+.margins{
+    margin-top: 0.5rem;
+}
+.education-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.education-card{
+    background: #000000;
+    padding: 1.2rem 1rem;
+    border:2px solid white;
+}
+
+.education-card img{
+    width: 100%;
+}
+
+.education-title{
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.pro-btns{
+   display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+}
+
+
+
+@media screen and (max-width: 740px){
+    .education-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

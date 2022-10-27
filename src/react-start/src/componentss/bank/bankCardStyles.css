@@ -1,0 +1,67 @@
+.bank-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.special1{
+    color: black;
+}
+
+.banka-list-container{
+    background-color:#FF5E35;
+
+}
+
+.bank-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.bank-card{
+    background: #C9463D;
+    padding: 1.2rem 1rem;
+
+}
+
+.bank-card img{
+    width: 100%;
+}
+
+.bank-title{
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.pro-btns{
+   display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+}
+
+
+
+@media screen and (max-width: 740px){
+    .bank-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

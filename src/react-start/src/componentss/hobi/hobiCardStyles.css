@@ -1,0 +1,68 @@
+.hobi-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+
+.hobi-list-container{
+    background-color: #3d311c;
+}
+
+.hobi-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.hobi-card{
+    width: 100%;
+    height: 100%;
+    background: black;
+    margin: 1rem;
+    padding: 2rem 1rem;
+    border:2px solid white;
+
+}
+
+.hobi-card img{
+    width: 100%;
+}
+.hobiler{
+    height: 75%;
+    width: 30vh;
+}
+
+.hobi-title{
+    color: #fff;
+    padding: 1rem 0;
+    border:2px solid white;
+}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.pro-btns{
+   display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+}
+
+
+
+@media screen and (max-width: 740px){
+    .hobi-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

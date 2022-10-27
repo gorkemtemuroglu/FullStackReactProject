@@ -1,0 +1,139 @@
+.person-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+
+.person-list-container{
+    background-color: #211414;
+
+    width: 100%;
+    height: auto;
+
+}
+.displayss{
+    display: none;
+}
+
+.person-container{
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.specials{
+    width: auto;
+    height: 45%;
+    border-radius: 50%;
+}
+.none{
+    display: none;
+}
+h3{
+    text-align: center;
+    color: black;
+}
+
+.person-card{
+    background: #bd1a1a;
+    padding: 1.2rem 1rem;
+    border:2px solid white;
+    width: auto;
+
+}
+.pro-details{
+    width: 100%;
+}
+.bank-title{
+    text-transform: uppercase;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+
+.person-card img{
+    width: 100%;
+}
+
+
+.person-title{
+    color: #fff;
+    padding: 0.5rem 0;
+    font-size: 2rem;
+}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+
+
+.pro-btns{
+
+    text-align: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.btn-style{
+    width: 150px;
+    height: 100px;
+    margin: 0.5rem;
+    padding: 0;
+}
+
+
+
+.form-display{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+div label{
+    font-size: 1.75rem;
+    margin: 1rem;
+    margin-top: 0rem;
+
+}
+
+
+.special-form{
+    display: none;
+}
+.special-form2{
+    display: initial;
+}
+
+
+@media screen and (max-width: 740px){
+    .person-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .btn-style{
+        width: 150px;
+        height: 80px;
+    }
+    .design-buttons{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        right: 120px;
+        top: 1390px;
+    }
+}
